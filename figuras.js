@@ -1,12 +1,8 @@
 
-console.group("primer grupo - cuadrado-");
-//operaciones para cuadrado
-const ladoCuadrado=5;
-console.log("los lados del cuadrado miden "+ladoCuadrado);
 
-const perimetroCuadrado= ladoCuadrado*4;
-console.log("el perimetro del cuadrado es: "+perimetroCuadrado);
+function areacuadrado (){
+    const input=document.getElementById("areacuad");
+    const value= input.value;
+    alert(value*value);
 
-const areaCuadrado= ladoCuadrado*ladoCuadrado;
-console.log("el area del cuadrado es: "+perimetroCuadrado);
-console.groupEnd();
+} 
